@@ -19,7 +19,7 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(){
-
+    this.rowData = this.http.get('https://api.myjson.com/bins/15psn9');
   }
 
   columnDefs = [
